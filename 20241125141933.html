@@ -1,0 +1,2268 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>RISC-V市场：高性能浪潮下的迅猛发展新纪元-电子工程专辑</title>
+    <meta name="keywords" content="RISC-V,处理器">
+    <meta name="description" content="RISC-V开放和自由的特性使其对从嵌入式系统到高性能计算的各种应用都具有吸引力。其生态系统正在迅速扩大，众多公司、研究机构和开源社区都在为其发展做出贡献。">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="applicable-device" content="pc,mobile"/>
+    <link rel="stylesheet" href="https://www.eet-china.com/css/2.0/detail.css?v=3.2">
+    <script type="text/javascript" src="https://www.eet-china.com/js/jquery.min.js"></script>
+    <link rel="shortcut icon" href="https://www.eet-china.com/favicon.ico">
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NMNZ3NH');</script>
+<!-- End Google Tag Manager -->
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5Z4ZCXC');</script>
+<!-- End Google Tag Manager -->
+
+
+<script>(window.BOOMR_mq=window.BOOMR_mq||[]).push(["addVar",{"rua.upush":"false","rua.cpush":"false","rua.upre":"false","rua.cpre":"false","rua.uprl":"false","rua.cprl":"false","rua.cprf":"false","rua.trans":"","rua.cook":"false","rua.ims":"false","rua.ufprl":"false","rua.cfprl":"false","rua.isuxp":"false","rua.texp":"norulematch","rua.ceh":"false","rua.ueh":"false","rua.ieh.st":"0"}]);</script>
+                              <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="TLAJY-YQ7UQ-EFDDX-PRYZP-DPN68",function(){function e(){if(!o){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,i.parentNode.appendChild(e),o=!0}}function t(e){o=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(i.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",i.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"TLAJY-YQ7UQ-EFDDX-PRYZP-DPN68";var i=document.currentScript||document.getElementsByTagName("script")[0],o=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!o)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),i.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="agulk2osi7r4qz2ec25a-f-ecf8427da-clientnsv4-s.akamaihd.net",i="false"=="true"?2:1,o={"ak.v":"39","ak.cp":"1484482","ak.ai":parseInt("931233",10),"ak.ol":"0","ak.cr":4,"ak.ipv":4,"ak.proto":"http/1.1","ak.rid":"b451214","ak.r":42841,"ak.a2":n,"ak.m":"dsca","ak.n":"essl","ak.bpcip":"1.168.181.0","ak.cport":27021,"ak.gh":"210.71.227.196","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"reno","ak.t":"1732515514","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==2XHYR5uPL+zHwEAhe45M2vvgTzCDcp48sSxaDUPk4IIywbaztDJs8zII1ZDvTzXzJJdUrTt3nsOCRVlpak1vs9CP1WwwnMoWkVOzJZJBmaJ189ycz0I3cQBj8Qb6Uj9t8/Iaqj3AnE8x08J9fZ2u1wggIx9LHLgwbVKyRnMmgmxOQUaA5yjiAHcVF4Ts0Ko+POHLES6OpRw+ovYFjNuJXlj858Si8e3NMgdrvS6dmtFmwteJbm+jxjeus71KcWDgNUFuBysXOPrlqBtMt/kGw6s/vlFzWv7mhTJpFaOH/Whu3lA1tVff7DzOP16yg/BlcMPVcR3xJDiBL3Oufslz2+s4IO3PGVv3HA44v9HKt1BvF7PVFwWN0UTUfGUaDbBAmYsNJXNuxOIHJvPOIwx8Kr4QSu+eoGiy1mQlRKwJgn0=","ak.pv":"31","ak.dpoabenc":"","ak.tf":i};if(""!==t)o["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))o["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(o)},rv:function(){var e=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:o,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script><script >bazadebezolkohpepadr="1631867622"</script><script type="text/javascript" src="https://www.eet-china.com/akam/13/6144526e"  defer></script></head>
+<body>
+
+<div class="rowBanner rowBannerTop"></div>
+
+<!--面包屑-->
+<div class="rowPage bread-nav">
+    <a href="https://www.eet-china.com/" target="_blank">EET首页</a>&nbsp;>&nbsp;<a href="https://www.eet-china.com/news/" target="_blank">新闻趋势</a> > <span>正文</span>
+</div>
+
+<div class="rowPage row-article-title">
+    <h1 class="article-title">
+        RISC-V市场：高性能浪潮下的迅猛发展新纪元    </h1>
+    <div class="date-and-user">
+        <span class="thedate">发布于2024-09-24 09:00:00</span>
+        <span><a class='theuser' href='https://www.eet-china.com/author/demixia/' target='_blank'>作者：夏菲 <span class='writer_title'>产业分析师</span></a></span>        <span class="hidden-xs share-btn">
+             <span class="iconfont_box">
+                <span class="iconfont">&#xe60b;</span>
+            </span>&nbsp;分享
+            <div class="img-box">
+            <img src="https://www.eet-china.com/e/extend/qrcoode/index.php?text=https://www.eet-china.com/news/202409069369.html"/>
+                <span>扫码分享到好友</span>
+            </div>
+        </span>
+    </div>
+</div>
+
+<div class="rowPage detail-article">
+    <div class="detail-article-l">
+        <div class="detail-article-l-con">
+            <div class="article-operation">
+                <div class="article-operation-icon-top"></div>
+                <div class="article-operation-icon">
+                    <div class="the-icon thumbs-icon diggtop">
+                        <a href="javascript:void (0)">
+                            <span class="iconfont">&#xe69e;</span>
+                            <span class="the-text diggtopnum"><script
+                                        src=https://www.eet-china.com/e/public/ViewClick/?classid=19&id=19275&down=5></script></span>
+                        </a>
+                    </div>
+                    <div class="the-icon comment-icon">
+                        <a href="javascript:void (0)">
+                            <span class="iconfont">&#xe6a6;</span>
+                            <span class="the-text pl-totalnum">0</span>
+                        </a>
+                    </div>
+                    <div class="the-icon collection-icon">
+                        <a href="javascript:void (0)">
+                            <span class="iconfont">&#xe680;</span>
+                            <span class="the-text">收藏</span>
+                        </a>
+                    </div>
+                    <div class="the-icon code-icon">
+                        <a href="javascript:void (0)">
+                            <span class="iconfont">&#xe6a8;</span>
+                            <span class="the-text">分享</span>
+                        </a>
+                        <div class="weixin-drop">
+                            <img src="https://www.eet-china.com/e/extend/qrcoode/index.php?text=https://www.eet-china.com/news/202409069369.html" alt="">
+                            <span>扫码分享到微信好友</span>
+                        </div>
+                    </div>
+                    <div class="the-icon code-icon">
+                        <a href="javascript:void (0)">
+                            <span class="iconfont">&#xe6a7;</span>
+                            <span class="the-text">扫一扫</span>
+                        </a>
+                        <div class="weixin-drop">
+                            <img src="https://www.eet-china.com/images/code.jpg" alt="">
+                            <span>扫码查看更多文章</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="article-text">
+                <div class="article-abstract">
+                    <img src="https://www.eet-china.com/images/2.0/abstract_icon.svg" alt="">
+                    <span>
+                         RISC-V开放和自由的特性使其对从嵌入式系统到高性能计算的各种应用都具有吸引力。其生态系统正在迅速扩大，众多公司、研究机构和开源社区都在为其发展做出贡献。                    </span>
+                </div>
+
+                
+                <div class="article_body">
+                    <div class="article-text-con article_text">
+                        <!--start_body-->
+                        <p>RISC-V&nbsp;是一种基于精简指令集计算机&nbsp;(RISC)&nbsp;原理的开放式标准指令集架构&nbsp;(ISA)，在各行各业的应用日益广泛。其开放和自由的特性使其对从嵌入式系统到高性能计算的各种应用都具有吸引力。生态系统正在迅速扩大，众多公司、研究机构和开源社区都在为其发展做出贡献。</p>
+<p>技术革新与市场拓展双双驱动着RISC-V&nbsp;市场的爆发式增长。</p>
+<h2 style="color:#002b59;font-weight:bold;"><b>三人团队掀起的&ldquo;</b><b>全球性行业运动</b><b>&rdquo;</b></h2>
+<p>2010年，加州大学伯克利分校的Krste&nbsp;Asanovic教授，带着两位研究生Yunsup&nbsp;Lee和Andrew&nbsp;Waterman，启动了一个看似不起眼的短期项目。他们的目标是开发一个简洁、透明、开源的芯片指令集架构，用于教学和研究。这个项目，就是现在闻名遐迩的RISC-V。</p>
+<p>当时的芯片行业，被英特尔、Arm和AMD三大巨头所主导，市场对新进入者并不友好。但Asanovic教授和他的团队坚信，开放和自由的RISC-V指令集，能够打破行业壁垒，让更多企业和研究者参与到芯片设计中来。他们的理念是，开放标准能够降低成本、刺激创新，并最终推动整个行业的发展。</p>
+<p>随着RISC-V的发布，一股新的活力注入了芯片行业。这个开源项目迅速吸引了全球的关注，包括谷歌、IBM和英特尔等科技巨头。</p>
+<p>2015年，为了维护和发展RISC-V标准，RISC-V基金会应运而生。基金会的成立，标志着RISC-V从一个学术项目，正式转变为一个全球性的行业运动。</p>
+<p>RISC-V的开放性大大降低了进入芯片设计领域的门槛，使得众多中小企业和初创公司也能参与到这一高科技领域。</p>
+<p>根据SHD集团发布的《RISC-V市场分析报告：异构世界中的应用预测2024》，RISC-V技术市场的规模在2024年估计为9.2亿美元，预计到2029年将达到35.9亿美元，预测期间(2024-2029年)的复合年增长率为31.20%。增长最快的市场是亚太地区，而最大的市场是北美洲。</p>
+<p>此外，分析机构Omdia的最新报告也对RISC-V架构的前景持乐观态度，并预测基于RISC-V的芯片出货量预计将从当前年份起&ldquo;每年增加50%&rdquo;，到2030年出货量有望达到170亿，并预计RISC-V架构将占据全球市场份额的25%。</p>
+<h2 style="color:#002b59;font-weight:bold;"><b>物联网市场见证RISC-V快速发展</b></h2>
+<p>作为RISC-V的起点，物联网市场见证了RISC-V的快速发展。</p>
+<p>由于物联网的市场更为灵活，是一个&ldquo;碎片化&rdquo;的市场，客户需求相对多样化，目前尚无任一架构统一市场。虽然Arm架构在物联网领域也非常流行，特别是在低功耗和成本敏感的应用中，但它通常需要支付许可费。而x86架构则更多地被用于高性能计算，它的功耗和成本通常较高。</p>
+<p>与上述两种架构相比，RISC-V的主要优势在于其开源和免许可费的模式，这为IoT设备制造商提供了更大的灵活性和成本效益，此外，RISC-V还易于集成，以上这些特点使得RISC-V在智能家居、智能穿戴和智慧城市等物联网应用中占据了一席之地。</p>
+<p>例如，SiFive作为RISC-V芯片设计领域的领先公司，已经宣布其RISC-V处理器的出货量超过了100亿颗，这些处理器广泛应用于IoT市场；高通与谷歌合作开发基于RISC-V架构的Snapdragon&nbsp;Wear芯片，标志着RISC-V架构在可穿戴设备市场的重大突破；Espressif&nbsp;Systems推出的集成Wi-Fi和蓝牙功能的RISC-V微控制器ESP32-C3，适合智能家居设备和可穿戴设备；GOWIN&nbsp;Semiconductor基于RISC-V的FPGA解决方案，也在工业自动化和智慧城市领域有着广泛应用。</p>
+<p>中国企业，例如赛昉科技基于OpenWrt推出的智能网络解决方案，以及全球首款量产的高性能RISC-V多媒体处理器JH-7110，已应用于物流机器人、智能分拣小车、智能网关及传感器网络等实际运营场景中；跃昉科技基于RISC-V的NB2系列芯片也是如此。</p>
+<p>物奇科技推出的集成两个高性能RISC-V内核的Wi-Fi&nbsp;6芯片WQ9201，已在消费电子、物联网和汽车电子等多个领域完成了RISC-V相关应用场景落地和产业化布局。</p>
+<p>不止如此，物联网市场中RISC-V的市占率还在不断提升。根据Counterpoint&nbsp;Research的预测，到2025年，RISC-V在IoT市场的市占率将达到28%。</p>
+<h2 style="color:#002b59;font-weight:bold;"><b>在高性能计算领域崭露头角</b></h2>
+<p>随着物联网设备的不断增加，边缘计算成为处理海量数据的重要手段。RISC-V凭借其高效的计算能力和灵活的架构设计，在边缘计算领域展现出了巨大的潜力。</p>
+<p>AI的快速发展对算力提出了更高要求，通过添加自定义指令集扩展(如向量处理或AI专用指令)，RISC-V能够显著提升计算速度和能效，满足高性能计算场景的需求。</p>
+<p>从全球发展趋势来看，RISC-V架构因其与异构计算模式的高度兼容性而备受巨头公司及初创企业的青睐。</p>
+<p>例如，谷歌在其人工智能芯片中使用SiFive的X280作为协处理器，并计划在下一代人工智能系统中继续采用SiFive设计；Meta首发的AI&nbsp;MTIA芯片中使用两颗AX25V100核心处理器，其RISC-V&nbsp;IP内核已获认可，且第二代MTIA芯片将继续采用并增加核心数量；特斯拉的Project&nbsp;Dojo芯片核心包含一个整数单元，采用了部分RISC-V架构指令。</p>
+<p>初创公司方面，Tenstorrent将基于RISC-V架构技术和SF4X工艺开发下一代AI芯片；Untether.Al推出的Boqueria&nbsp;Al速器拥有1458个RISC-V核心，可在由低至高功耗设备间灵活适配；Rivos的AI芯片结合了高性能RISC-V&nbsp;CPU和针对LLM及数据分析优化的GPGPU。</p>
+<p>中国方面，中国自主研发的&ldquo;天河&rdquo;系列超级计算机，已经开始采用RISC-V架构的处理器，以期在未来的高性能计算竞赛中保持领先地位。</p>
+<p>此外，达摩院一直以来都是加速RISC-V生态发展的坚定推动者，其生态的参与公司包括：阿里巴巴达摩院、中国科学院软件研究所、中国电信研究院、Imagination&nbsp;Technologies&nbsp;、国网智芯公司、中国电信研究院、亚博智能和润开鸿等。这些公司在芯片设计、软件开发、应用场景开发等方面与玄铁生态紧密合作，共同推动RISC-V技术的发展和应用。</p>
+<p>2024玄铁RISC-V生态大会上，达摩院还牵头成立RISC-V无剑联盟，推出了面向多媒体AI增强场景、基于玄铁处理器与无剑芯片平台的XTAI(XuanTie&nbsp;AI)全栈软硬件平台。</p>
+<p>此外，RISC-V基金会计划于明年发布新的高性能计算扩展指令集，这将进一步推动RISC-V在高性能领域的快速发展。&nbsp;</p>
+<h2 style="color:#002b59;font-weight:bold;"><b>在</b><b>汽车行业</b><b>的</b><b>增速最快</b></h2>
+<p>在汽车行业，随着自动驾驶技术的快速发展，车辆对实时数据处理和决策能力的要求日益提高，而RISC-V架构凭借其可定制性和安全性增强的特性，成为了理想的选择。</p>
+<p>Omdia的报告指出，在各行业中，工业领域预计将占据RISC-V销售额的最大比重，达到46%，而汽车行业的增长速度最快，预计年增长率为66%。</p>
+<p>Omdia特别强调了RISC-V在汽车行业的优势。与x86和Arm相比，RISC-V的指令集更为精简，没有历史遗留问题，且功耗最低。这些特点使得RISC-V非常适合用于提升汽车系统的整体性能，同时降低制造成本。</p>
+<p>在汽车行业的具体应用方面，RISC-V处理器被广泛应用于车载信息娱乐系统、自动驾驶控制系统、电池管理系统和车辆网络通信等关键领域。</p>
+<p>例如，车载信息娱乐系统可以利用RISC-V的高性能处理器实现流畅的多媒体播放和人机交互；自动驾驶控制系统则可以利用RISC-V的实时性和安全性特性，确保车辆在各种复杂环境下都能做出正确的决策；电池管理系统则可以通过RISC-V的精确控制，提高电池的续航能力和安全性。</p>
+<p>此外，车辆安全是自动驾驶和智能汽车的首要考量。RISC-V架构在设计时就考虑到了安全性，支持硬件级别的安全特性，如内存保护单元(MPU)和信任根等。</p>
+<h2 style="color:#002b59;font-weight:bold;"><b>总结：</b><b>RISC-V技术</b><b>影响力必将进一步增强</b></h2>
+<p>随着RISC-V技术和应用的不断发展，其在中国乃至全球的影响力必将进一步增强。</p>
+<p>特别是在中国，RISC-V国际基金会(RISC-V&nbsp;International)首席执行官Calista&nbsp;Redmond指出，中国政府积极推动技术进步，特别是在微处理器开发与制造方面。</p>
+<p>此外，中国的众多高校和研究机构也已将RISC-V纳入教学和研究计划中，不仅培养了大量掌握RISC-V技术的人才，还推动了相关技术的研究和创新。</p>
+<p>为促进产业链上下游的合作，中国目前成立了多个RISC-V产业联盟和创新中心，旨在加速RISC-V技术的商业化进程。同时，中国也在积极参与国际RISC-V标准的制定，以确保在这一新兴技术领域中拥有更多的话语权。</p>
+<p>据RISC-V&nbsp;International统计，2022年全球RISC-V处理器出货量超过100亿颗，其中近一半来自中国。</p>
+<p>中国已然成为RISC-V生态建设的重要力量。</p>                        <!--end_body-->
+                        <div class="editor">责编：Franklin</div>                    </div>
+                    <div class="note"><div class="note_show">本文为EET电子工程专辑原创文章，禁止转载。请尊重知识产权，违者本司保留追究责任的权利。</div></div>                    <div class="hidden-xs pagelist"></div>
+                    <ul class="article-pl-list">
+
+</ul>                    <div class="article_cover">
+                        阅读全文，请先
+                        <script src="https://www.eet-china.com/e/member/login/loginAuthReadFullArticle.php"></script>
+                    </div>
+                    <div class="artice_end_ad">
+       <script type="text/javascript">
+                            document.write("<s" + "cript type='text/javascript' src='/d/js/advertising/article_end_ad.js?" + Math.random() + "'></s" + "cript>");
+        </script>
+</div>
+                </div>
+                <!--ecms.*-->
+                
+                <div class="article-tag art-relative-tags">
+                    <img src="https://www.eet-china.com/images/2.0/tag_icon.svg" alt="">
+                    <a href="https://www.eet-china.com/tag/processor-dsp/" target="_blank">处理器/DSP</a>&nbsp;<a href="https://www.eet-china.com/tag/edaipic/" target="_blank">EDA/IP/IC设计</a>&nbsp;<a href="https://www.eet-china.com/tag/marketing-analyst/" target="_blank">市场分析</a>                </div>
+
+                <!--text_ad_start-->
+                <div class="article-recommend">
+                    <ul>
+                        <script>
+    document.write("<s"+"cript type='text/javascript' src='https://www.eet-china.com/d/js/js/1592169688.js?"+Math.random()+"'></scr"+"ipt>");
+</script>
+                    </ul>
+                </div>
+                <!--text_ad_end-->
+
+
+                <!--评论标签-->
+                <div id="article-pl-box" class="pl-520am" data-newsurl="https://www.eet-china.com/" data-id="19275"
+                     data-classid="19"
+                     data-pagesize=5 data-showhot="1" data-hotpagesize="5"></div>
+                <script type="text/javascript" src="https://www.eet-china.com/e/extend/lgyPl2.0/api.js"></script>
+
+
+                <div class="fixed-bottom-seat"></div>
+
+                <div class="article-interested">
+                    <div class="page-detail-title">
+                        <img src="https://www.eet-china.com/images/2.0/interested-icon.png" alt="">您可能感兴趣
+                    </div>
+                                            <div class="intereste-item">
+                            <div class="the-title">
+                                <a href="https://www.eet-china.com/news/202411194284.html" target="_blank">
+                                    英伟达CUDA-Q平台助力谷歌设计量子计算设备，几分钟即可完成噪声模拟                                </a>
+                            </div>
+                            <div class="the-con">
+                                使用旗下CUDA-Q平台，谷歌可以在英伟达Eos超算上动用1024块H100 Tensor核心GPU，以极低的成本执行全球最大、最快的量子设备动力学模拟，可以对容纳40个量子比特的设备进行全面、逼真的模拟。                            </div>
+                            <div class="theCover"></div>
+                        </div>
+                                                <div class="intereste-item">
+                            <div class="the-title">
+                                <a href="https://www.eet-china.com/news/202411186816.html" target="_blank">
+                                    英伟达新一代AI芯片被曝过热，或延迟至2025年第一季度大规模出货                                </a>
+                            </div>
+                            <div class="the-con">
+                                为了应对这一挑战，英伟达正在与多家云服务提供商合作，共同优化散热方案，并强调工程迭代是正常且预期的一部分，但其交付时间或不得不再次推迟。                            </div>
+                            <div class="theCover"></div>
+                        </div>
+                                                <div class="intereste-item">
+                            <div class="the-title">
+                                <a href="https://www.eet-china.com/news/202411187985.html" target="_blank">
+                                    全球第二大显卡制造商柏能科技集团将总部从香港迁至新加坡                                </a>
+                            </div>
+                            <div class="the-con">
+                                根据柏能科技集团官网的最新信息，公司已将总部从香港迁往新加坡，成立PC Partner Singapore PTE Ltd，并已于15日在新加坡证券交易所（SGX）成功挂牌上市。                            </div>
+                            <div class="theCover"></div>
+                        </div>
+                                                <div class="intereste-item">
+                            <div class="the-title">
+                                <a href="https://www.eet-china.com/news/202411187868.html" target="_blank">
+                                    晶华微因涉嫌信息披露违法违规被证监会立案调查                                </a>
+                            </div>
+                            <div class="the-con">
+                                晶华微的信披问题并非首次被监管机构关注。2022年以来，公司及其多名高管已多次因信息披露不准确、募集资金管理和财务章使用不规范等问题收到上海证券交易所的监管警示。                            </div>
+                            <div class="theCover"></div>
+                        </div>
+                                                <div class="intereste-item">
+                            <div class="the-title">
+                                <a href="https://www.eet-china.com/news/202411172858.html" target="_blank">
+                                    国产AI芯片现状一窥：困境和成长 | Fabless行研系列 (Q4’24)                                </a>
+                            </div>
+                            <div class="the-con">
+                                最近国产AI芯片市场遭遇一波有关7nm被禁的震荡，现状如何了？                            </div>
+                            <div class="theCover"></div>
+                        </div>
+                                                <div class="intereste-item">
+                            <div class="the-title">
+                                <a href="https://www.eet-china.com/news/202411153899.html" target="_blank">
+                                    AMD全球裁员4%，集火AI芯片                                </a>
+                            </div>
+                            <div class="the-con">
+                                AMD此次裁员的主要目的是为了更加专注于人工智能（AI）芯片的开发，以与行业领头羊英伟达（Nvidia）展开更激烈的竞争……                            </div>
+                            <div class="theCover"></div>
+                        </div>
+                                            
+   <div class="intereste-item">
+                            <div class="the-title">
+                                <a href="https://www.eet-china.com/newsexpress/72744.html" target="_blank">
+                                    自托管钱包是什么？深入解析其原理与应用方式
+                                </a>
+                            </div>
+                            <div class="the-con">自托管加密钱包是一种数字工具，它让用户可以完全掌控加密货币的私钥，特别是像比特币这样的数字资产。对于初次接触加密货币的用户来说，了解如何购买比特币是使用自托管钱包的第一步......
+                            </div>
+                            <div class="theCover"></div>
+                        </div>
+
+   <div class="intereste-item">
+                            <div class="the-title">
+                                <a href="https://www.eet-china.com/newsexpress/72742.html" target="_blank">
+                                    一场IC设计业盛宴！10场论坛 200位演讲嘉宾，300+展商亮相2万平米专业展会！
+                                </a>
+                            </div>
+                            <div class="the-con">12月11-12日，“上海集成电路2024年度产业发展论坛暨第三十届集成电路设计业展览会”（ICCAD-Expo 2024）将在上海世博展览馆隆重举行。
+                            </div>
+                            <div class="theCover"></div>
+                        </div>
+                    
+   <div class="intereste-item">
+                            <div class="the-title">
+                                <a href="https://www.eet-china.com/info/72748.html" target="_blank">
+                                    纳芯微联合芯弦推出NS800RT系列实时控制MCU
+                                </a>
+                            </div>
+                            <div class="the-con">NS800RT系列实时控制MCU凭借更加高效、功能更强大的实时控制能力和丰富的外设，使工程师能够在光伏/储能逆变器、不间断电源、工业自动化、协作机器人、新能源汽车大/小三电、空调压缩机等系统中，实现皮秒级别的PWM控制，从而显著提升系统运行精度和效率。
+                            </div>
+                            <div class="theCover"></div>
+                        </div>
+
+   <div class="intereste-item">
+                            <div class="the-title">
+                                <a href="https://www.eet-china.com/info/72747.html" target="_blank">
+                                    Nexperia推出新款120V/4A半桥栅极驱动器，进一步提高工业和汽车应用的鲁棒性和效率
+                                </a>
+                            </div>
+                            <div class="the-con">提高电源转换器效率和电机控制稳定性
+                            </div>
+                            <div class="theCover"></div>
+                        </div>
+
+
+                </div>
+
+                <div class="article-interested">
+
+                                            <div class="intereste-item">
+                            <div class="the-title">
+                                <a href="https://www.eet-china.com/mp/a363585.html" target="_blank" rel="nofollow">
+                                    小米与聚飞光电成立联合实验室                                </a>
+                            </div>
+                            <div class="the-con">
+                                “仲恺发布”消息显示，11月19日，“小米&聚飞联合实验室”启动仪式在惠州仲恺高新区举行。作为惠州首个与小米合作成立的联合实验室，未来该实验室将以Mini背光技术创新为主要方向，进一步强化双方在显示终                            </div>
+                            <div class="theCover"></div>
+                        </div>
+                                                <div class="intereste-item">
+                            <div class="the-title">
+                                <a href="https://www.eet-china.com/mp/a363581.html" target="_blank" rel="nofollow">
+                                    突发！平板电脑巨头退出市场                                </a>
+                            </div>
+                            <div class="the-con">
+                                Google曾于2019年宣布退出平板市场，但在2023年藉由Pixel Tablet重返，然而，最新消息指出，Google可能再次退出这一领域！根据外媒Android Headlines的独家报导，                            </div>
+                            <div class="theCover"></div>
+                        </div>
+                                                <div class="intereste-item">
+                            <div class="the-title">
+                                <a href="https://www.eet-china.com/mp/a363579.html" target="_blank" rel="nofollow">
+                                    20241121买卖芯片找老王（优势物料，低于市场价）                                </a>
+                            </div>
+                            <div class="the-con">
+                                芯片超人现有1600平米芯片智能仓储基地，现货库存型号1000+，品牌高达100种，5000万颗现货库存芯片，总重量10吨，库存价值高达1亿+。同时，芯片超人在深圳设有独立实验室，每颗物料均安排QC质                            </div>
+                            <div class="theCover"></div>
+                        </div>
+                                                <div class="intereste-item">
+                            <div class="the-title">
+                                <a href="https://www.eet-china.com/mp/a363602.html" target="_blank" rel="nofollow">
+                                    行家解析－深度探讨蓝牙6.0的未来发展趋势                                </a>
+                            </div>
+                            <div class="the-con">
+                                蓝牙（Bluetooth）技术又迎来了里程碑式进步。2024年9月，蓝牙技术联盟（Bluetooth SIG）发布了蓝牙核心规范6.0及其中新功能信道探测（Channel
+Sounding）。相比过去                            </div>
+                            <div class="theCover"></div>
+                        </div>
+                                                <div class="intereste-item">
+                            <div class="the-title">
+                                <a href="https://www.eet-china.com/mp/a363598.html" target="_blank" rel="nofollow">
+                                    搭载维信诺新一代发光材料F1OLED屏的首批机型出炉                                </a>
+                            </div>
+                            <div class="the-con">
+                                11月21日消息，iQOO Neo10系列将于11月29日发布，共iQOO Neo10和iQOO Neo10 Pro两款机型。随着发布会的临近，新机也已进入预热节奏，在公布性能表现后，iQOO Neo                            </div>
+                            <div class="theCover"></div>
+                        </div>
+                                                <div class="intereste-item">
+                            <div class="the-title">
+                                <a href="https://www.eet-china.com/mp/a363587.html" target="_blank" rel="nofollow">
+                                    兆元光电与厦大合作，共推Mini/MicroLED发展                                </a>
+                            </div>
+                            <div class="the-con">
+                                11月18日，福建兆元光电有限公司（以下简称“兆元光电”）与厦门大学福建省半导体光电科技经济融合服务平台签署战略合作协议，双方将就Mini/Micro LED新型显示关键技术研发进行深入合作，推动Mi                            </div>
+                            <div class="theCover"></div>
+                        </div>
+                                                <div class="intereste-item">
+                            <div class="the-title">
+                                <a href="https://www.eet-china.com/mp/a363573.html" target="_blank" rel="nofollow">
+                                    精彩回顾|MTS2025存储产业趋势研讨会圆满落幕，分析师演讲干货分享                                </a>
+                            </div>
+                            <div class="the-con">
+                                2024年11月20日，由全球高科技产业研究机构TrendForce集邦咨询以及旗下全球半导体观察主办的“MTS2025存储产业趋势研讨会”以及首届TechFuture Awards 2024科技未来                            </div>
+                            <div class="theCover"></div>
+                        </div>
+                                                <div class="intereste-item">
+                            <div class="the-title">
+                                <a href="https://www.eet-china.com/mp/a363589.html" target="_blank" rel="nofollow">
+                                    李斌：对标理想！                                </a>
+                            </div>
+                            <div class="the-con">
+                                对于点击上面↑“电动知家”关注，记得加☆“星标”！电动知家消息，在11月20日晚的电话会议上，蔚来创始人、董事长兼CEO李斌预告了乐道品牌明年的新车阵容：分别对标理想 L8、理想 L7 的六七座中大型                            </div>
+                            <div class="theCover"></div>
+                        </div>
+                                                <div class="intereste-item">
+                            <div class="the-title">
+                                <a href="https://www.eet-china.com/mp/a363575.html" target="_blank" rel="nofollow">
+                                    面板价格观察｜11月电视面板价格仍持稳，显示器面板价格跌幅收敛                                </a>
+                            </div>
+                            <div class="the-con">
+                                面板价格观察--11月下旬版昨日（11月20日），TrendForce集邦咨询公布了11月下旬面板报价，TrendForce集邦咨询表示：2024年11月下旬，电视、笔记本面板价格保持稳定；显示器面板                            </div>
+                            <div class="theCover"></div>
+                        </div>
+                                                <div class="intereste-item">
+                            <div class="the-title">
+                                <a href="https://www.eet-china.com/mp/a363600.html" target="_blank" rel="nofollow">
+                                    苹果7亿解除iPhone16禁售令                                </a>
+                            </div>
+                            <div class="the-con">
+                                印尼准备评估苹果公司提出的1亿美元投资提案，此时苹果公司试图说服政府解除对iPhone 16设下的销售禁令。印尼工业部在22日晚间发出的声明说，印尼确认已经收到苹果最新的投资提案，内容包含要在西爪哇省                            </div>
+                            <div class="theCover"></div>
+                        </div>
+                                        </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+
+    <div class="detail-right-sidebar">
+                    <div class="author-message">
+                <a href="https://www.eet-china.com/author/demixia/" target="_blank" class="author-introduce">
+                    <div class="author-pic">
+                        <img src="//www.ednchina.com/d/file/p/2019-05-22/b46bed332419ec38e25a0f39c4a151ea.jpg" alt="">
+                    </div>
+                    <div class="author-introduce-con">
+                        <span class="the-user">夏菲</span>
+                        <span class="the-con">
+                        Aspencore助理产业分析师，专注行业市场前沿及技术发展趋势。                    </span>
+                        <div class="p-btn-primary">
+                            进入专栏
+                        </div>
+                    </div>
+                </a>
+                <div class="author-num hide">
+                    <div class="the-item">
+                        <span class="iconfont">&#xe69e;</span>
+                        <span></span>
+                    </div>
+                    <div class="the-item">
+                        <span class="iconfont">&#xe6a9;</span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            
+        <!--r-ad-300*250-2-start-->
+        <div class="indexAd_300 ">
+            <div class="tag_banner" id="div-gpt-ad-1512121863269-1"></div>
+            <div class="adTag">
+                <img src="https://www.eet-china.com/images/ad.png" alt="">
+            </div>
+        </div>
+        <!--r-ad-300*250-2-end-->
+
+        <div class="sidebar-comment">
+            <div class="moduleTitle moduleTitleS">
+                <div class="theTitle">文章评论</div>
+                <div class="second-switch">
+                    <ul>
+                        <li  class="active">
+                            <a href="#new" data-toggle="tab">最新</a>
+                        </li>
+                        <li>
+                            <a href="#hot" data-toggle="tab">热门</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tab-content sidebar-comment-con">
+                <div class="tab-pane active" id="new">
+                    <script type="text/javascript">
+                        document.write("<s" + "cript type='text/javascript' src='https://www.eet-china.com/d/js/js/15180832782.js?" + Math.random() + "'></s" + "cript>");
+                    </script>
+                    <a href="javascript:void (0)" class="updateIcon">
+                        <span class="iconfont"></span>换一换
+                    </a>
+                </div>
+
+                <div class="tab-pane" id="hot">
+                    <script type="text/javascript">
+                        document.write("<s" + "cript type='text/javascript' src='https://www.eet-china.com/d/js/js/15180832792.js?" + Math.random() + "'></s" + "cript>");
+                    </script>
+                    <a href="javascript:void (0)" class="updateIcon">
+                        <span class="iconfont">&#xe642;</span>换一换
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="indexAd_300  bottom-right-corner-no-fixed">
+            <div class="tag_banner" id="div-gpt-ad-1512121863269-4"></div>
+            <div class="adTag">
+                <img src="https://www.eet-china.com/images/ad.png" alt="">
+            </div>
+        </div>
+
+        <!--EE直播间-start-->
+        <div class="eetLive">
+            <div class="moduleTitle moduleTitleS">
+                <div class="theTitle">EE直播</div>
+                <div class="operation">
+                    <a href="https://www.eet-china.com/ee-live" target="_blank">更多&gt;</a>
+                </div>
+            </div>
+            <div class="eetLiveCon r-eelive-list">
+
+            </div>
+        </div>
+        <!--EE直播间-end-->
+
+        <!--在线研讨会-start-->
+        <div class="eetLive sidebar-workshop">
+            <div class="moduleTitle moduleTitleS">
+                <div class="theTitle">在线研讨会</div>
+                <div class="operation">
+                    <a href="https://www.eet-china.com/webinars" target="_blank">更多&gt;</a>
+                </div>
+            </div>
+            <div class="eetLiveCon workshopCon r-webinar-list">
+
+            </div>
+        </div>
+        <!--在线研讨会-end-->
+
+
+        <!--r-最新下载、帖子、博文-start-->
+        <div class="sidebar-community">
+            <div class="moduleTitle moduleTitleS">
+                <div class="theTitle">社区</div>
+                <!--                <div class="operation">-->
+                <!--                    <a href="###" target="_blank">更多&gt;</a>-->
+                <!--                </div>-->
+                <div class="second-switch">
+                    <ul>
+                        <li class="active">
+                            <a href="#download" data-toggle="tab">下载</a>
+                        </li>
+                        <li>
+                            <a href="#forum" data-toggle="tab">帖子</a>
+                        </li>
+                        <li>
+                            <a href="#blog" data-toggle="tab">博文</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="tab-content sidebar-community-con">
+                <div class="tab-pane active r-download-list" id="download">
+                    <ul>
+
+                    </ul>
+                </div>
+                <div class="tab-pane r-forum-list" id="forum">
+                    <ul>
+
+                    </ul>
+                </div>
+                <div class="tab-pane r-blog-list" id="blog">
+                    <ul>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--r-最新下载、帖子、博文-end-->
+
+        <div class="bottom-right-corner-top"></div>
+
+        <!--datasheets 搜索框-->
+        <div class="datasheets-search">
+            <iframe src="https://www.eet-china.com//e/extend/datasheetsSearch/Datasheets-widget-cn.html" width="100%"
+                    height="175px" frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no"
+                    allowtransparency="yes"></iframe>
+        </div>
+        <!--datasheets 搜索框-->
+
+    </div>
+</div>
+
+
+<style>
+    .link-lanmu{
+        color: #D6262E!important;
+        font-weight: bold!important;
+    }
+    .link-lanmu:hover{
+        color: #fff!important;
+        background: #D6262E!important;
+    }
+
+</style>
+<nav class="navbar-fixed-top">
+
+    <div class="rowBanner pushDown">
+        <div id="div-gpt-ad-pushdown"></div>
+        <div class="adTag">
+            <img src="https://www.eet-china.com/images/ad.png" alt="">
+        </div>
+    </div>
+
+    <div class="navContainer">
+        <div class="logo">
+            <a href="https://www.eet-china.com/" target="_blank">
+                <img src="https://www.eet-china.com/images/logo.svg?1" alt="电子工程专辑" loading="lazy">
+            </a>
+        </div>
+        <div class="navTabs">
+            <ul>
+                <li class="dropdown">
+                    <a href="https://www.eet-china.com/" target="_blank" class="navTextLink">
+                        首页
+                    </a>
+                </li>
+                <li class="dropdown">
+                    <a href="https://www.eet-china.com/news/" data-toggle="dropdown" class="navTextLink navArrowLink">
+                        资讯
+                        <span class="iconfont">&#xe7a1;</span>
+                    </a>
+                    <div class="dropdown-menu drop-information">
+                        <div class="dropContainer">
+                            <div class="informationTag">
+
+                                <a href="https://www.eet-china.com/news" target="_blank" class="link-lanmu">新闻趋势</a>
+                                <a href="https://www.eet-china.com/newsexpress" target="_blank" class="link-lanmu">行业资讯</a>
+                                <a href="https://www.eet-china.com/tag/ta/" target="_blank" class="link-lanmu">技术文章</a>
+                                <a href="https://www.eet-china.com/info/" target="_blank" class="link-lanmu">厂商新闻</a>
+                                <a href="https://www.eet-china.com/radio" target="_blank" class="link-lanmu">EE|Times全球联播</a>
+                                <a href="https://www.eet-china.com/eetv" target="_blank" class="link-lanmu">eeTV</a>
+                                <a href="https://site.eet-china.com/ceo/index.html" target="_blank" class="link-lanmu">CEO专栏</a>
+                                <a href="https://www.eet-china.com/tuji/" target="_blank" class="link-lanmu">图集</a>
+                                <a href="https://www.eet-china.com/tag/stor" target="_blank">存储技术</a>
+                                <a href="https://www.eet-china.com/tag/edaipic" target="_blank">EDA/IP/IC设计</a>
+                                <a href="https://www.eet-china.com/tag/uwbbtzigbee" target="_blank">无线技术</a>
+                                <a href="https://www.eet-china.com/tag/mcu-control" target="_blank">控制/MCU</a>
+                                <a href="https://www.eet-china.com/tag/analog-mixed-signal" target="_blank">模拟/混合信号</a>
+                                <a href="https://www.eet-china.com/tag/amplifying-converting-conditioning" target="_blank">放大/调整/转换</a>
+                                <a href="https://www.eet-china.com/tag/intd-interface-bus-driver" target="_blank">接口/总线/驱动</a>
+                                <a href="https://www.eet-china.com/tag/embedded-design" target="_blank">嵌入式设计</a>
+                                <a href="https://www.eet-china.com/tag/auto-electric" target="_blank">汽车电子</a>
+                                <a href="https://www.eet-china.com/tag/industrial" target="_blank">工业电子</a>
+                                <a href="https://www.eet-china.com/tag/ai" target="_blank">人工智能</a>
+                                <a href="https://www.eet-china.com/tag/manufacturing-packaging" target="_blank">制造/封装</a>
+                                <a href="https://www.eet-china.com/tag/communication" target="_blank">通信</a>
+                                <a href="https://www.eet-china.com/tag/emc-emi-esd" target="_blank">EMC/EMI/ESD</a>
+                                <a href="https://www.eet-china.com/tag/sensor_mems" target="_blank">传感/MEMS</a>
+                                <a href="https://www.eet-china.com/tag/power" target="_blank">电源管理</a>
+                                <a href="https://www.eet-china.com/tag/optical_electronics_display" target="_blank">光电及显示</a>
+                                <a href="https://www.eet-china.com/tag/test-measurement" target="_blank">测试与测量</a>
+                                <a href="https://www.eet-china.com/tag/fpgas-plds" target="_blank">FPGAs/PLDs</a>
+                                <a href="https://www.eet-china.com/tags.html" target="_blank">全部标签</a>
+                            </div>
+                            <div class="dropList">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-4">
+                                        <div class="moduleTitle">
+                                            <div class="theTitle">今日头条</div>
+                                        </div>
+                                        <div class="leftAndRightModule">
+    <div class="thePicBg">
+        <a href="https://www.eet-china.com/news/202411218866.html" target="_blank">
+            <div class="thePic">
+                <img src="//www.eet-china.com/d/file/news/2022-12-01/c23c3d5541c74a8251306f834e1df60e.jpg" alt="" loading="lazy">
+            </div>
+        </a>
+        <span class="theTag"></span>
+    </div>
+    <div class="theRightText">
+        <div class="theTitle">
+            <a href="https://www.eet-china.com/news/202411218866.html" target="_blank">
+                三星回应2025 年停产MLC 闪存：传言不实
+            </a>
+        </div>
+    </div>
+</div><div class="leftAndRightModule">
+    <div class="thePicBg">
+        <a href="https://www.eet-china.com/news/202411215437.html" target="_blank">
+            <div class="thePic">
+                <img src="//www.eet-china.com/d/file/news/2024-11-21/7f0648021db6a2fdb0d7a72fe8645167.jpg" alt="" loading="lazy">
+            </div>
+        </a>
+        <span class="theTag"><a class='tag' href="https://www.eet-china.com/tag/industrial ">工业电子</a></span>
+    </div>
+    <div class="theRightText">
+        <div class="theTitle">
+            <a href="https://www.eet-china.com/news/202411215437.html" target="_blank">
+                从兆易创新刚发布的两颗芯片，洞悉国产MCU的技术实力
+            </a>
+        </div>
+    </div>
+</div><div class="leftAndRightModule">
+    <div class="thePicBg">
+        <a href="https://www.eet-china.com/news/202411216646.html" target="_blank">
+            <div class="thePic">
+                <img src="//www.eet-china.com/d/file/news/2024-11-21/4db0322ce252c9e614b2c6d8a6ce1b40.jpg" alt="" loading="lazy">
+            </div>
+        </a>
+        <span class="theTag"></span>
+    </div>
+    <div class="theRightText">
+        <div class="theTitle">
+            <a href="https://www.eet-china.com/news/202411216646.html" target="_blank">
+                SK海力士开始量产全球最高的321层NAND闪存
+            </a>
+        </div>
+    </div>
+</div>                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <div class="moduleTitle">
+                                            <div class="theTitle">一周热点</div>
+                                        </div>
+                                        <div class="aRowModule">
+                                            <ul><li>
+    <a href="https://www.eet-china.com/news/202411204626.html" target="_blank">
+        何同学就盗用开源项目道歉，原作者：窃取他人成果，欺骗自己粉丝
+    </a>
+</li><li>
+    <a href="https://www.eet-china.com/news/202411172858.html" target="_blank">
+        国产AI芯片现状一窥：困境和成长 | Fabless行研系列 (Q4’24)
+    </a>
+</li><li>
+    <a href="https://www.eet-china.com/news/202411187985.html" target="_blank">
+        全球第二大显卡制造商柏能科技集团将总部从香港迁至新加坡
+    </a>
+</li><li>
+    <a href="https://www.eet-china.com/news/202411154854.html" target="_blank">
+        长电科技董事长等四位高管辞职，华润系117亿元入主
+    </a>
+</li><li>
+    <a href="https://www.eet-china.com/news/202411182056.html" target="_blank">
+        比亚迪推出4nm工艺定制座舱芯片BYD 9000，多款车型搭载
+    </a>
+</li><li>
+    <a href="https://www.eet-china.com/news/202411158154.html" target="_blank">
+        2024年传感器行业四大发展趋势：手机高端CIS、ADAS、生物识别、边
+    </a>
+</li><li>
+    <a href="https://www.eet-china.com/news/202411153065.html" target="_blank">
+        清华大佬晒offer：拿华为的70W，还是老家烟草局的35W？
+    </a>
+</li></ul>                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <div class="moduleTitle">
+                                            <div class="theTitle">热议话题</div>
+                                        </div>
+                                        <div class="aRowModule">
+                                            <ul><li>
+    <a href="https://www.eet-china.com/news/202411204626.html" target="_blank">
+        何同学就盗用开源项目道歉，原作者：窃取他人成果，欺骗自己粉丝
+    </a>
+</li><li>
+    <a href="https://www.eet-china.com/news/202411121629.html" target="_blank">
+        中国“机器狼群”首次亮相第15届珠海航展，身背机枪实现集群作战
+    </a>
+</li><li>
+    <a href="https://www.eet-china.com/news/202411088863.html" target="_blank">
+        马斯克要求SpaceX供应商搬出台湾
+    </a>
+</li><li>
+    <a href="https://www.eet-china.com/news/202411218866.html" target="_blank">
+        三星回应2025 年停产MLC 闪存：传言不实
+    </a>
+</li><li>
+    <a href="https://www.eet-china.com/news/202411065991.html" target="_blank">
+        纳斯达克上市的本土元器件电商平台，经营有何独到之处？
+    </a>
+</li><li>
+    <a href="https://www.eet-china.com/news/202411076962.html" target="_blank">
+        超高压氮化镓的崛起：碳化硅能否幸存？
+    </a>
+</li><li>
+    <a href="https://www.eet-china.com/news/202411079663.html" target="_blank">
+        半导体芯片供应周期解读与展望
+    </a>
+</li></ul>                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:void (0)" data-toggle="dropdown" class="navTextLink navArrowLink">
+                        资源
+                        <span class="iconfont">&#xe7a1;</span>
+                    </a>
+                    <div class="dropdown-menu">
+                        <div class="dropContainer">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4">
+                                    <ul class="secondNav">
+                                        <li>
+                                            <a href="https://www.eet-china.com/webinars/" target="_blank">
+                                                在线研讨会
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://u.eet-china.com/" target="_blank">
+                                                EE芯视频
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.eet-china.com/downloads/" target="_blank">
+                                                下载
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.eet-china.com/iqs" target="_blank">
+                                                小测验
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.eet-china.com/rc" target="_blank">
+                                                厂商专区
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.eet-china.com/ACSTUDIO/" target="_blank">
+                                                ASPENCORE Studio
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.eet-china.com/ee-live/" target="_blank" style="color: red">
+                                                EE直播间
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://u.eet-china.com/" target="_blank" style="color: red">
+                                                ASPENCORE学院
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-4 col-md-4">
+                                    <div class="moduleTitle">
+                                        <div class="theTitle">在线研讨会</div>
+                                    </div>
+                                    
+<div class="leftAndRightModule workshopItem">
+    <div class="thePicBg">
+        <a href="https://www.eet-china.com/webinars/ADI_20241127.html" target="_blank">
+            <div class="thePic">
+                <img src="https://static.assets-stash.eet-china.com/2023-12-05-145142-17017591022045350.jpg" alt="" loading="lazy"  style="height:auto">
+            </div>
+        </a>
+    </div>
+    <div class="theRightText">
+        <div class="theTitle">
+            <a href="https://www.eet-china.com/webinars/ADI_20241127.html" target="_blank">
+                LTspice<sup>®</sup> 24仿真工具：优化、简化电路仿真，并加快仿真速度
+            </a>
+        </div>
+        <div class="theSmallText">
+            举行时间：2024.11.27 10:00-11:30
+        </div>
+        <div class="theBtn">
+            <a href="https://www.eet-china.com/e/extend/leads/checkpoint.php?id=1904&type=3" target="_blank">立即报名</a>
+        </div>
+    </div>
+</div>
+<div class="leftAndRightModule workshopItem">
+    <div class="thePicBg">
+        <a href="https://www.eet-china.com/webinars/ADI_20241211.html" target="_blank">
+            <div class="thePic">
+                <img src="https://static.assets-stash.eet-china.com/2023-09-13-150526-16945887261774179.png" alt="" loading="lazy"  style="height:auto">
+            </div>
+        </a>
+    </div>
+    <div class="theRightText">
+        <div class="theTitle">
+            <a href="https://www.eet-china.com/webinars/ADI_20241211.html" target="_blank">
+                uModule DC/DC稳压器 - 减少热量、增加功率
+            </a>
+        </div>
+        <div class="theSmallText">
+            举行时间：2024.12.11 10:00-11:30
+        </div>
+        <div class="theBtn">
+            <a href="https://www.eet-china.com/e/extend/leads/checkpoint.php?id=1916&type=3" target="_blank">立即报名</a>
+        </div>
+    </div>
+</div>
+<div class="leftAndRightModule workshopItem">
+    <div class="thePicBg">
+        <a href="https://www.eet-china.com/webinars/Microchip_20241217_01.html" target="_blank">
+            <div class="thePic">
+                <img src="https://static.assets-stash.eet-china.com/2022-09-19-153250-16635727706238522.jpg" alt="" loading="lazy"  style="height:auto">
+            </div>
+        </a>
+    </div>
+    <div class="theRightText">
+        <div class="theTitle">
+            <a href="https://www.eet-china.com/webinars/Microchip_20241217_01.html" target="_blank">
+                ADAS系统中采用的MEMS时钟
+            </a>
+        </div>
+        <div class="theSmallText">
+            举行时间：2024.12.17 10:00-10:50
+        </div>
+        <div class="theBtn">
+            <a href="https://www.eet-china.com/e/extend/leads/checkpoint.php?id=1913&type=3" target="_blank">立即报名</a>
+        </div>
+    </div>
+</div>                                </div>
+                                <div class="col-lg-4 col-md-4">
+                                    <div class="moduleTitle">
+                                        <div class="theTitle">热门资源</div>
+                                    </div>
+                                    <div class="aRowModule">
+                                        <ul><li>
+    <a href="https://www.eet-china.com/downloads/2024_Bluetooth_PPT.html" target="_blank">
+        2024蓝牙趋势应用研讨会——演讲PPT资料
+    </a>
+</li><li>
+    <a href="https://www.eet-china.com/ee-live/Keysight_20241205.html" target="_blank">
+        无线前沿新技术与测试技术峰会-线上直播
+    </a>
+</li><li>
+    <a href="https://www.eet-china.com/webinars/Melexis_20241226.html" target="_blank">
+        迈来芯Triaxis® 3D磁传感器：汽车安全应用的优选方案
+    </a>
+</li><li>
+    <a href="https://www.eet-china.com/iqs/Tektronix_20241125.html" target="_blank">
+        【有奖小测验】IsoVu™ 隔离电流探头的测试限度
+    </a>
+</li><li>
+    <a href="https://www.eet-china.com/webinars/ADI_20241211.html" target="_blank">
+        uModule DC/DC稳压器 - 减少热量、增加功率
+    </a>
+</li><li>
+    <a href="https://www.eet-china.com/ee-live/Fluke_20241111.html" target="_blank">
+        功率表的基础知识及其校准
+    </a>
+</li><li>
+    <a href="https://www.eet-china.com/webinars/Microchip_20241217_02.html" target="_blank">
+        PLL基础知识及其在时钟系统中的应用
+    </a>
+</li><li>
+    <a href="https://www.eet-china.com/webinars/Microchip_20241217_01.html" target="_blank">
+        ADAS系统中采用的MEMS时钟
+    </a>
+</li></ul>                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="https://mbb.eet-china.com/" target="_blank" data-toggle="dropdown"
+                       class="navTextLink navArrowLink">
+                        社区
+                        <span class="iconfont">&#xe7a1;</span>
+                    </a>
+                    <div class="dropdown-menu">
+                        <div class="dropContainer">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4">
+                                    <ul class="secondNav">
+                                        <li>
+                                            <a href="https://mbb.eet-china.com/forum" target="_blank">论坛</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://mbb.eet-china.com/blog/" target="_blank">博客</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://mbb.eet-china.com/forum/cat/8_1.html" target="_blank">问答</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://mbb.eet-china.com/download " target="_blank">下载中心</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://mbb.eet-china.com/evaluating " target="_blank">评测中心</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.eet-china.com/mp" target="_blank">面包芯语</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://estore.eet-china.com" target="_blank">E币商城</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://mbb.eet-china.com/activity" target="_blank">社区活动</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.eet-china.com/tools" target="_blank">在线工具</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://u.eet-china.com/" target="_blank" style="color: red">
+                                                EE芯视频
+                                            </a>
+                                        </li>
+
+
+                                        <li>
+                                            <a href="https://mbb.eet-china.com/tech" target="_blank" style="color: red">
+                                                技术文库
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-4 col-md-4">
+                                    <div class="moduleTitle">
+                                        <div class="theTitle">原创博文</div>
+                                    </div>
+                                                                                <div class="leftAndRightModule communityItem noLeftItem">
+                                                <div class="theRightText">
+                                                    <div class="theTitle">
+                                                        <a href="https://mbb.eet-china.com/blog/4049822-461315.html" target="_blank">
+                                                            11-19学习笔记                                                        </a>
+                                                    </div>
+                                                    <div class="blogger">
+                                                        <img src="https://mbb.eet-china.com/uc_server/avatar.php?uid=4049822&size=small" alt="" loading="lazy">
+                                                        <span>博主：youyeye</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                                                                        <div class="leftAndRightModule communityItem noLeftItem">
+                                                <div class="theRightText">
+                                                    <div class="theTitle">
+                                                        <a href="https://mbb.eet-china.com/blog/4095595-461301.html" target="_blank">
+                                                            探索光耦：光耦在电脑电源中的应用及其重要性                                                        </a>
+                                                    </div>
+                                                    <div class="blogger">
+                                                        <img src="https://mbb.eet-china.com/uc_server/avatar.php?uid=4095595&size=small" alt="" loading="lazy">
+                                                        <span>博主：晶台光耦</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                                                                        <div class="leftAndRightModule communityItem noLeftItem">
+                                                <div class="theRightText">
+                                                    <div class="theTitle">
+                                                        <a href="https://mbb.eet-china.com/blog/3998886-461299.html" target="_blank">
+                                                            舱驾融合一体化测试解决方案                                                        </a>
+                                                    </div>
+                                                    <div class="blogger">
+                                                        <img src="https://mbb.eet-china.com/uc_server/avatar.php?uid=3998886&size=small" alt="" loading="lazy">
+                                                        <span>博主：北汇信息</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                                                            </div>
+                                <div class="col-lg-4 col-md-4">
+                                    <div class="moduleTitle">
+                                        <div class="theTitle">论坛推荐</div>
+                                    </div>
+                                    <div class="aRowModule">
+                                        <ul>
+                                                                                                <li>
+                                                        <a href="https://mbb.eet-china.com/forum/topic/146900_1_1.html" target="_blank">
+                                                            对于 负反馈 的理解                                                        </a>
+                                                    </li>
+                                                                                                        <li>
+                                                        <a href="https://mbb.eet-china.com/forum/topic/146589_1_1.html" target="_blank">
+                                                            公司的小徒弟：天塌了，基准源输出电压不对。。。                                                        </a>
+                                                    </li>
+                                                                                                        <li>
+                                                        <a href="https://mbb.eet-china.com/forum/topic/146740_1_1.html" target="_blank">
+                                                            【联盛德 W800 Arduino开发板】超详细用Arduino IDE开荒教程，附点灯、温度计项目                                                        </a>
+                                                    </li>
+                                                                                                        <li>
+                                                        <a href="https://mbb.eet-china.com/forum/topic/146975_1_1.html" target="_blank">
+                                                            altium Designer19使用的几个疑问                                                        </a>
+                                                    </li>
+                                                                                                        <li>
+                                                        <a href="https://mbb.eet-china.com/forum/topic/146974_1_1.html" target="_blank">
+                                                            【联盛德 W800 Arduino开发板】新体验2)开发环境搭建                                                        </a>
+                                                    </li>
+                                                                                                        <li>
+                                                        <a href="https://mbb.eet-china.com/forum/topic/146786_1_1.html" target="_blank">
+                                                            【联盛德 W800 Arduino开发板】基于Arduino IDE的环境搭建与基础功能实现（Win11 + Arduino IDE 2.3.3及1.8.18）                                                        </a>
+                                                    </li>
+                                                                                            </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="communityLine"></div>
+                                </div>
+                                <div class="col-lg-8 col-md-8">
+                                    <div class="moduleTitle">
+                                        <div class="theTitle">免费申请</div>
+                                    </div>
+                                    <div class="row">
+                                                                                        <div class="col-lg-6 col-md-6">
+                                                    <div class="leftAndRightModule communityItem">
+                                                        <div class="thePicBg">
+                                                            <a href="https://mbb.eet-china.com/evaluating/product-194.html" target="_blank">
+                                                                <div class="thePic"
+                                                                     style="background-image: url(https://mbb.eet-china.com/data/attachment/eva_product/1731031285DY14gheO.png)"></div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="theRightText">
+                                                            <div class="theTitle">
+                                                                <a href="https://mbb.eet-china.com/evaluating/product-194.html" target="_blank">
+                                                                    元能芯24V全集成电机专用开发板                                                                </a>
+                                                            </div>
+                                                            <div class="theBtn applyBtn">
+                                                                <a href="https://mbb.eet-china.com/evaluating/product-194.html" target="_blank">立即申请</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                                                                <div class="col-lg-6 col-md-6">
+                                                    <div class="leftAndRightModule communityItem">
+                                                        <div class="thePicBg">
+                                                            <a href="https://mbb.eet-china.com/evaluating/product-193.html" target="_blank">
+                                                                <div class="thePic"
+                                                                     style="background-image: url(https://mbb.eet-china.com/data/attachment/eva_product/1730356364cwJe2XrY.png)"></div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="theRightText">
+                                                            <div class="theTitle">
+                                                                <a href="https://mbb.eet-china.com/evaluating/product-193.html" target="_blank">
+                                                                    米尔MYC-LR3576核心板及开发板                                                                </a>
+                                                            </div>
+                                                            <div class="theBtn applyBtn">
+                                                                <a href="https://mbb.eet-china.com/evaluating/product-193.html" target="_blank">立即申请</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                                                                <div class="col-lg-6 col-md-6">
+                                                    <div class="leftAndRightModule communityItem">
+                                                        <div class="thePicBg">
+                                                            <a href="https://mbb.eet-china.com/evaluating/book-192.html" target="_blank">
+                                                                <div class="thePic"
+                                                                     style="background-image: url(https://mbb.eet-china.com/data/attachment/eva_product/1730192108xIwHvtjR.jpg)"></div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="theRightText">
+                                                            <div class="theTitle">
+                                                                <a href="https://mbb.eet-china.com/evaluating/book-192.html" target="_blank">
+                                                                    大话芯片制造：从工厂、制造、工艺、材料到行业战略                                                                </a>
+                                                            </div>
+                                                            <div class="theBtn applyBtn">
+                                                                <a href="https://mbb.eet-china.com/evaluating/book-192.html" target="_blank">立即申请</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                                                                <div class="col-lg-6 col-md-6">
+                                                    <div class="leftAndRightModule communityItem">
+                                                        <div class="thePicBg">
+                                                            <a href="https://mbb.eet-china.com/evaluating/book-191.html" target="_blank">
+                                                                <div class="thePic"
+                                                                     style="background-image: url(https://mbb.eet-china.com/data/attachment/eva_product/1729143791IHjxyGIu.png)"></div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="theRightText">
+                                                            <div class="theTitle">
+                                                                <a href="https://mbb.eet-china.com/evaluating/book-191.html" target="_blank">
+                                                                    高速PCB设计经验规则应用实践                                                                </a>
+                                                            </div>
+                                                            <div class="theBtn applyBtn">
+                                                                <a href="https://mbb.eet-china.com/evaluating/book-191.html" target="_blank">立即申请</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4">
+                                    <div class="moduleTitle">
+                                        <div class="theTitle">资料下载</div>
+                                    </div>
+                                    <div class="aRowModule downloadItem">
+                                        <ul>
+                                                                                                <li>
+                                                        <a href="https://mbb.eet-china.com/download/316497.html" target="_blank">
+                                                            《普通高中教科书：数学》（人教A版）选择性必修 第1册 教师教学用书                                                        </a>
+                                                    </li>
+                                                                                                        <li>
+                                                        <a href="https://mbb.eet-china.com/download/316496.html" target="_blank">
+                                                            《普通高中教科书：数学》（人教A版）必修 第2册 教师教学用书                                                        </a>
+                                                    </li>
+                                                                                                        <li>
+                                                        <a href="https://mbb.eet-china.com/download/316495.html" target="_blank">
+                                                            《普通高中教科书：数学》（人教A版）选择性必修 第3册 教师教学用书                                                        </a>
+                                                    </li>
+                                                                                                        <li>
+                                                        <a href="https://mbb.eet-china.com/download/316494.html" target="_blank">
+                                                            《普通高中教科书：数学》（人教A版）选择性必修 第2册 教师教学用书                                                        </a>
+                                                    </li>
+                                                                                                        <li>
+                                                        <a href="https://mbb.eet-china.com/download/316493.html" target="_blank">
+                                                            《普通高中教科书：数学》（人教A版）必修 第1册 教师教学用书                                                        </a>
+                                                    </li>
+                                                                                            </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="dropdown">
+                    <a href="javascript:void (0)" data-toggle="dropdown" class="navTextLink navArrowLink">
+                        活动
+                        <span class="iconfont">&#xe7a1;</span>
+                    </a>
+                    <div class="dropdown-menu">
+                        <div class="dropContainer">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12">
+                                    <ul class="secondNav rowSecondNav">
+                                        <li>
+                                            <a href="https://www.eet-china.com/events/auto2024/index.html" target="_blank"  >
+                                                国际汽车电子大会
+                                            </a>
+
+                                        </li>
+                                        <li>
+                                            <a href="https://iic.eet-china.com/" target="_blank"  >
+                                                2024 国际集成电路展览会暨研讨会（IIC Shenzhen）
+                                            </a>
+
+                                        </li>
+                                        <li>
+                                            <a href="https://site.eet-china.com/events/mcu2024/index.html" target="_blank"  >
+                                                2024MCU及嵌入式大会
+                                            </a>
+
+                                        </li>
+
+                                        <li>
+                                            <a href="https://site.esmchina.com/events/AIoT2024/index.html" target="_blank"  >
+                                                2024国际AIoT生态大会
+                                            </a>
+
+                                        </li>
+
+                                        <li>
+                                            <a href="https://www.eet-china.com/activity.html" target="_blank">
+                                                行业及技术活动
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="https://www.eet-china.com/events/IATID2024/index.html" target="_blank">
+                                                航空电子产业大会
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="https://iic.eet-china.com/iic-sh2024/" target="_blank"  >
+                                                2024 国际集成电路展览会暨研讨会（IIC Shanghai）
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="https://iic.eet-china.com/iic-sz2023/" target="_blank"  >
+                                                2023 国际集成电路展览会暨研讨会（IIC Shenzhen）
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="https://iic.eet-china.com/iic-sh2023/" target="_blank" >
+                                                2023 国际集成电路展览会暨研讨会（IIC Shanghai）
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="https://site.eet-china.com/events/mcu2023/index.html" target="_blank" >
+                                                2023全球 MCU 生态发展大会
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="https://www.eet-china.com/events/auto2023/index.html" target="_blank"  >
+                                                2023第四届中国国际汽车电子高峰论坛
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="https://site.esmchina.com/events/AIoT2023/index.html" target="_blank"  >
+                                                2023第四届国际 AIoT 生态发展大会
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="https://site.eet-china.com/events/LinGang2023/index.html" target="_blank" >
+                                                2023第四届临港半导体产业高峰论坛暨司南科技奖颁奖盛典
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="https://iic.eet-china.com/iic-sz2022/" target="_blank">
+                                                2022 国际集成电路展览会暨研讨会（IIC Shenzhen）
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="https://iic.eet-china.com/iic-sh2022/" target="_blank" >
+                                                2022 国际集成电路展览会暨研讨会（IIC Shanghai）
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="https://doublesummits.eet-china.com/index.html" target="_blank" >
+                                                2021 ASPENCORE 全球双峰会
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="https://site.eet-china.com/events/icsummit2021/index.html" target="_blank" >
+                                                2021年度中国 IC 领袖峰会
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <div class="col-lg-4 col-md-4">
+                                    <div class="moduleTitle">
+                                        <div class="theTitle">技术论坛</div>
+                                    </div>
+                                    <ul><div class="leftAndRightModule activityItem">
+    <div class="thePicBg">
+        <a href="https://www.eet-china.com/techevents/MT2022.html" target="_blank">
+            <div class="thePic"
+                 style="background-image: url(//www.eet-china.com/d/file/techevents/2022-05-10/adc6b21c18dc040ae1d9191bc4575fc0.png)"></div>
+        </a>
+    </div>
+    <div class="theRightText">
+        <div class="theTitle">
+            <a href="https://www.eet-china.com/techevents/MT2022.html" target="_blank">
+                2022电机驱动与控制论坛
+            </a>
+        </div>
+        <div class="addressAndDate">
+     <span class="theItem">
+         <span class="iconfont">&#xe640;</span>
+         <em>深圳市南山区</em>
+     </span>
+            <span class="theItem">
+            <span class="iconfont">&#xe63d;</span>
+            <em>2022年6月17日</em>
+        </span>
+        </div>
+    </div>
+</div>
+
+<div class="leftAndRightModule activityItem">
+    <div class="thePicBg">
+        <a href="https://www.eet-china.com/techevents/MCU2022.html" target="_blank">
+            <div class="thePic"
+                 style="background-image: url(//www.eet-china.com/d/file/techevents/2022-05-10/dc55b4b9657f22fd76cca8c1b8a52734.png)"></div>
+        </a>
+    </div>
+    <div class="theRightText">
+        <div class="theTitle">
+            <a href="https://www.eet-china.com/techevents/MCU2022.html" target="_blank">
+                2022全球MCU生态发展大会
+            </a>
+        </div>
+        <div class="addressAndDate">
+     <span class="theItem">
+         <span class="iconfont">&#xe640;</span>
+         <em>深圳市南山区</em>
+     </span>
+            <span class="theItem">
+            <span class="iconfont">&#xe63d;</span>
+            <em>2022年6月17日</em>
+        </span>
+        </div>
+    </div>
+</div>
+
+<div class="leftAndRightModule activityItem">
+    <div class="thePicBg">
+        <a href="https://www.eet-china.com/techevents/RFXA.html" target="_blank">
+            <div class="thePic"
+                 style="background-image: url(//www.eet-china.com/d/file/techevents/2022-05-27/155a69f7163d50238589be12357777d5.png)"></div>
+        </a>
+    </div>
+    <div class="theRightText">
+        <div class="theTitle">
+            <a href="https://www.eet-china.com/techevents/RFXA.html" target="_blank">
+                射频与微波技术及应用研讨会
+            </a>
+        </div>
+        <div class="addressAndDate">
+     <span class="theItem">
+         <span class="iconfont">&#xe640;</span>
+         <em>西安天朗森柏大酒店</em>
+     </span>
+            <span class="theItem">
+            <span class="iconfont">&#xe63d;</span>
+            <em>2022年06月23日</em>
+        </span>
+        </div>
+    </div>
+</div>
+
+</ul>                                </div>
+                                <div class="col-lg-4 col-md-4">
+                                    <div class="moduleTitle">
+                                        <div class="theTitle">热点活动</div>
+                                    </div>
+                                    <ul><div class="leftAndRightModule activityItem">
+    <div class="thePicBg">
+        <a href="https://site.esmchina.com/events/AIoT2024/index.html" target="_blank">
+            <div class="thePic"
+                 style="background-image: url(//www.eet-china.com/d/file/customize/2024-05-07/300b5c88741506d0e81b8e692f857a23.png)"></div>
+        </a>
+    </div>
+    <div class="theRightText">
+        <div class="theTitle">
+            <a href="https://site.esmchina.com/events/AIoT2024/index.html" target="_blank">
+                2024(第五届)国际 AIoT 生态发展大会
+            </a>
+        </div>
+        <div class="addressAndDate">
+     <span class="theItem">
+         <span class="iconfont">&#xe640;</span>
+         <em>深圳</em>
+     </span>
+            <span class="theItem">
+            <span class="iconfont">&#xe63d;</span>
+            <em>2024年06月20日</em>
+        </span>
+        </div>
+    </div>
+</div>
+
+<div class="leftAndRightModule activityItem">
+    <div class="thePicBg">
+        <a href="https://www.eet-china.com/events/IATID2024/index.html" target="_blank">
+            <div class="thePic"
+                 style="background-image: url(https://www.eet-china.com/events/IATID2024/images/kv_bg.png)"></div>
+        </a>
+    </div>
+    <div class="theRightText">
+        <div class="theTitle">
+            <a href="https://www.eet-china.com/events/IATID2024/index.html" target="_blank">
+                中国国际航空电子（低空经济）产业创新发展大会
+            </a>
+        </div>
+        <div class="addressAndDate">
+     <span class="theItem">
+         <span class="iconfont">&#xe640;</span>
+         <em>四川成都</em>
+     </span>
+            <span class="theItem">
+            <span class="iconfont">&#xe63d;</span>
+            <em>2024年05月22日</em>
+        </span>
+        </div>
+    </div>
+</div>
+
+<div class="leftAndRightModule activityItem">
+    <div class="thePicBg">
+        <a href="https://iic.eet-china.com/" target="_blank">
+            <div class="thePic"
+                 style="background-image: url(https://www.eet-china.com/d/file/news/2024-01-08/e03629b9857390a340d685107dc4b95b.png)"></div>
+        </a>
+    </div>
+    <div class="theRightText">
+        <div class="theTitle">
+            <a href="https://iic.eet-china.com/" target="_blank">
+                IIC Shanghai 2024国际集成电路展览会暨研讨会
+            </a>
+        </div>
+        <div class="addressAndDate">
+     <span class="theItem">
+         <span class="iconfont">&#xe640;</span>
+         <em>中国上海张江科学会堂</em>
+     </span>
+            <span class="theItem">
+            <span class="iconfont">&#xe63d;</span>
+            <em>2024年03月28日</em>
+        </span>
+        </div>
+    </div>
+</div>
+
+</ul>                                </div>
+                                <div class="col-lg-4 col-md-4">
+                                    <div class="moduleTitle">
+                                        <div class="theTitle">社群活动</div>
+                                    </div>
+
+                                                                                <div class="leftAndRightModule activityItem AcommunityItem">
+                                                <div class="theRightText">
+                                                    <div class="theTitle">
+                                                        <a href="https://mbb.eet-china.com/forum/topic/142102_1_1.html" target="_blank">
+                                                            面包板社区有奖活动一览                                                        </a>
+                                                    </div>
+                                                    <div class="addressAndDate">
+                                                        <span class="theItem">
+                                                            <span class="iconfont">&#xe63d;</span>
+                                                            <em>2024.01.01-2024.12.31</em>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                                                                        <div class="leftAndRightModule activityItem AcommunityItem">
+                                                <div class="theRightText">
+                                                    <div class="theTitle">
+                                                        <a href="http://pubads.g.doubleclick.net/gampad/clk?id=6786521900&iu=/122049170/TEXT_AD" target="_blank">
+                                                            资料下载：高级驾驶辅助系统 (ADAS) 技术指南                                                        </a>
+                                                    </div>
+                                                    <div class="addressAndDate">
+                                                        <span class="theItem">
+                                                            <span class="iconfont">&#xe63d;</span>
+                                                            <em>2024.09.19-2024.10.30</em>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                                                                        <div class="leftAndRightModule activityItem AcommunityItem">
+                                                <div class="theRightText">
+                                                    <div class="theTitle">
+                                                        <a href="https://www.murata.com/zh-cn/campaigns/basestation-app_a?excid=cn_ma-p_ac_tml_bs-pr-24f-6_202409" target="_blank">
+                                                            《电信基站应用指南》中文版发布！免费下载                                                        </a>
+                                                    </div>
+                                                    <div class="addressAndDate">
+                                                        <span class="theItem">
+                                                            <span class="iconfont">&#xe63d;</span>
+                                                            <em>2024.09.01-2024.09.30</em>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                                                                        <div class="leftAndRightModule activityItem AcommunityItem">
+                                                <div class="theRightText">
+                                                    <div class="theTitle">
+                                                        <a href="https://mbb.eet-china.com/fluke.php?source=pc#apply-form" target="_blank">
+                                                            Debug一秒看穿故障! Fluke 红外热像仪免费申领                                                        </a>
+                                                    </div>
+                                                    <div class="addressAndDate">
+                                                        <span class="theItem">
+                                                            <span class="iconfont">&#xe63d;</span>
+                                                            <em>2024.08.01-2024.09.20</em>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:void (0)" data-toggle="dropdown" class="navTextLink navArrowLink">
+                        杂志
+                        <span class="iconfont">&#xe7a1;</span>
+                    </a>
+                    <div class="dropdown-menu">
+                        <div class="dropContainer">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4">
+                                    <ul class="secondNav magazineSecondNav">
+                                        <li>
+                                            <a href="https://subscription.eet-china.com" target="_blank">免费杂志订阅</a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void (0)" data-toggle="modal" data-target="#statement">杂志声明</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.eet-china.com/EditorialCalendar.html" target="_blank">编辑计划表</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://mbb.eet-china.com/download/whitepaper_EETC" target="_blank">电子杂志下载</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://site.eet-china.com/about-us/index.html"
+                                               target="_blank">关于我们</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-8 subscribeCodebg">
+                                    <ul class="subscribeCode">
+                                        <li>
+                                            <img src="https://www.eet-china.com/images/dingyuehao.png" alt="" loading="lazy">
+                                            <span>电子工程专辑订阅号</span>
+                                        </li>
+                                        <li>
+                                            <img src="https://www.eet-china.com/images/fuwuhao.jpg" alt="" loading="lazy">
+                                            <span>电子工程专辑服务号</span>
+                                        </li>
+                                        <li>
+                                            <img src="https://www.eet-china.com/images/yantaohui.jpg" alt="" loading="lazy">
+                                            <span>电子工程智库服务号</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <!--<li class="dropdown">-->
+                <!--<a href="[!&#45;&#45;news.url&#45;&#45;]tuji/" target="_blank" data-toggle="dropdown" class="navTextLink navArrowLink">-->
+                <!--图集-->
+                <!--<span class="iconfont">&#xe7a1;</span>-->
+                <!--</a>-->
+                <!--<div class="dropdown-menu">-->
+                <!--<div class="dropContainer">-->
+                <!--<div class="row">-->
+                <!--<div class="col-lg-12 col-md-12">-->
+                <!--<div class="moduleTitle">-->
+                <!--<div class="theTitle">最新图集推荐</div>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--<div class="col-lg-4 col-md-4">
+                                    <div class="leftAndRightModule">
+                                        <div class="thePicBg">
+                                            <a href="https://www.eet-china.com/tuji/331.html" target="_blank">
+                                                <div class="thePic" style="background-image: url(//www.eet-china.com/d/file/tuji/2024-08-29/8117b473159e3145fe903754cd4f599d.jpg)"></div>
+                                            </a>
+                                            <span class="theTag"><a class='tag' href="https://www.eet-china.com/tag/power-electronics ">功率电子</a></span>
+                                        </div>
+                                        <div class="theRightText">
+                                            <div class="theTitle">
+                                                <a href="https://www.eet-china.com/tuji/331.html" target="_blank">
+                                                    PCIM Asia大C位，英飞凌秀功率半导体“硬实力”
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><div class="col-lg-4 col-md-4">
+                                    <div class="leftAndRightModule">
+                                        <div class="thePicBg">
+                                            <a href="https://www.eet-china.com/tuji/329.html" target="_blank">
+                                                <div class="thePic" style="background-image: url(//www.eet-china.com/d/file/tuji/2024-03-06/45d6c10c9e597319208aa76a5307fe09.jpg)"></div>
+                                            </a>
+                                            <span class="theTag"><a class='tag' href="https://www.eet-china.com/tag/manufacturing-packaging ">制造/封装</a></span>
+                                        </div>
+                                        <div class="theRightText">
+                                            <div class="theTitle">
+                                                <a href="https://www.eet-china.com/tuji/329.html" target="_blank">
+                                                    来看Intel博物馆：有386/奔腾II，还有手工刻的掩膜...
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><div class="col-lg-4 col-md-4">
+                                    <div class="leftAndRightModule">
+                                        <div class="thePicBg">
+                                            <a href="https://www.eet-china.com/tuji/328.html" target="_blank">
+                                                <div class="thePic" style="background-image: url(//www.eet-china.com/d/file/tuji/2023-08-19/82a49c3258f2a5871dc61df9fae5fdea.jpg)"></div>
+                                            </a>
+                                            <span class="theTag"><a class='tag' href="https://www.eet-china.com/tag/ai ">人工智能</a></span>
+                                        </div>
+                                        <div class="theRightText">
+                                            <div class="theTitle">
+                                                <a href="https://www.eet-china.com/tuji/328.html" target="_blank">
+                                                    来参观一下英特尔大湾区科技创新中心
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--</li>-->
+
+                <li class="dropdown">
+                    <a href="https://www.eet-china.com/ee-live/" target="_blank" class="navTextLink">
+                        EE直播
+                    </a>
+                </li>
+
+                <li class="dropdown">
+                    <a href="javascript:void (0)" data-toggle="dropdown" class="navTextLink navArrowLink">
+                        技术子站
+                        <span class="iconfont">&#xe7a1;</span>
+                    </a>
+                    <div class="dropdown-menu">
+                        <div class="dropContainer">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12">
+                                    <ul class="secondNav rowSecondNav">
+                                        <li>
+                                            <a href="https://www.eet-china.com/RC/JCYQ-2/index.html" target="_blank">电源和信号完整性测试技术中心</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.eet-china.com/RC/Tektronix_2024/index.html" target="_blank">泰克智能汽车测试技术中心</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://mbb.eet-china.com/fluke.php?source=navbar" target="_blank">福禄克红外热像仪免费试用</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://site.eet-china.com/events/mcu2024/xinyuan.html" target="_blank">芯源半导体MCU技术中心</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.eet-china.com/events/Infineon_Microsite202404/index.html" target="_blank">英飞凌电容感应方案中心</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.eet-china.com/RC/ACXF_2024/index.html" target="_blank">器件射频和材料介电常数测试</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.eet-china.com/RC/JCYQ/index.html" target="_blank">是德科技 新能源汽车三电测试技术中心</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.eet-china.com/RC/Siemens_EDA_3DIC/index.html" target="_blank">西门子EDA 3D IC设计解决方案</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.eet-china.com/RC/DFZK/index.html" target="_blank">车载总线测试和解码</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.ednchina.com/e/extend/leads/checkpoint.php?id=36&type=5" target="_blank">Microchip 视频与资源中心</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.eet-china.com/e/extend/leads/checkpoint.php?id=1751&type=5"  target="_blank">NI最新射频仪器专区</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.eet-china.com/e/extend/leads/checkpoint.php?id=1743&type=5" target="_blank"> 西门子EDA中心</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.ednchina.com/Auto-Electronics/" target="_blank">汽车电子专题</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="dropdown nav-label-new-box" style="margin-right: 22px">
+                    <a href="https://job.eet-china.com/" target="_blank"   class="navTextLink" style="color: red">
+                        E聘
+                    </a>
+                    <span class="nav-label-new">NEW</span>
+                </li>
+
+                 <li class="dropdown">
+                    <a href="https://mbb.eet-china.com/forum/topic/147184_1_1.html" target="_blank"   class="navTextLink" style="color: red">
+                        无线前沿技术与测试峰会
+                    </a>
+                </li>             
+ 
+                <li class="dropdown">
+                    <a href="https://www.eet-china.com/events/auto2024/index.html" target="_blank"   class="navTextLink" style="color: red">
+                        国际汽车电子大会
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="navUser">
+            <script  src="https://www.eet-china.com/e/member/login/loginAuth2.php"></script>
+        </div>
+
+        <div class="navSearch">
+                <span class="iconfont searchIcon">
+                    &#xe65c;
+                </span>
+            <div class="navSearchBox">
+                <div class="inputGroup">
+                    <form action='https://www.eet-china.com/e/sch/index.php' method="GET" name="search_news" id="search_news">
+                        <input name="keyboard" type="text" id="keyboard" class="searchInput" placeholder="请输入关键词" />
+
+                        <input type="hidden" name="field" id="field" value="1">
+
+                        <div class="searchButton" onclick="$('#search_news').submit()">
+                            <span class="iconfont">&#xe65c;</span>
+                        </div>
+
+                    </form>
+                </div>
+
+                <div class="hotSearch">
+                    <div class="theTitle"># 热门搜索 #</div>
+                    <div class="searchTag">
+                        <script type="text/javascript" src="https://www.eet-china.com/d/js/js/1569489276.js"></script>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</nav>
+
+<script type="text/javascript">
+    var j = i = $('.navContainer .navTabs >ul>li').length;
+    var f = 0;
+    none = function () {
+        if (f > i / 2) {
+            return false;
+        }
+        f++;
+        var navContainer_w = $('.navContainer').outerWidth(true);
+        var logo_w = $('.navContainer .logo').outerWidth(true);
+        var navTabs_w = $('.navContainer .navTabs').outerWidth(true);
+        var navUser_w = $('.navContainer .navUser').outerWidth(true);
+        var navSearch_w = $('.navContainer .navSearch').outerWidth(true);
+
+        w1 = logo_w + navTabs_w + navUser_w + navSearch_w;
+
+        if (w1 > navContainer_w - 50 && j > 0) {
+            $('.navContainer .navTabs >ul>li:nth-child(' + j + ')').hide();
+            j--;
+            none();
+        } else {
+            var o = $('.navContainer .navTabs >ul>li:nth-child(' + (j + 1) + ')').outerWidth(true);
+            if (w1 + o < navContainer_w - 50 && j < i) {
+                j++;
+                $('.navContainer .navTabs >ul>li:nth-child(' + j + ')').show();
+                none();
+            }
+        }
+
+    }
+    $(window).resize(function () {
+        f = 0;
+        none();
+    });
+    none();
+</script>
+
+<script src="https://www.eet-china.com/e/public/onclick/?enews=donews&classid=19&id=19275"></script>
+<div class="modal" id="statement">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    &times;
+                </button>
+                <h4 class="modal-title">
+                    杂志声明
+                </h4>
+            </div>
+            <div class="modal-body">
+                我司杂志提供免费订阅，任何第三方平台的赠送或售卖行为均未获得我司授权，我司保留追究其法律责任的权利！ 
+            </div>
+        </div>
+    </div>
+</div>
+<style type="text/css">
+    #statement{
+        z-index: 99999;
+    }
+    #statement .modal-dialog {
+        height: 100%;
+    }
+    #statement .modal-content{
+        width: 100%;
+        border: none;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #statement .modal-header {
+        border-bottom: none;
+        text-align: center;
+        color: #333;
+        border: none;
+        padding: 15px 15px 10px 15px;
+        position: relative;
+    }
+    #statement .modal-header:before{
+        content: '';
+        width: 100%;
+        height: 1px;
+        background: #e5e5e5;
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+    }
+    #statement .close{
+        font-size: 24px;
+    }
+    #statement .modal-body{
+        padding: 30px;
+        font-size: 14px;
+        line-height: 30px;
+    }
+</style>
+
+
+<footer class="visible-lg visible-md">
+    <div class="rowPage">
+        <div class="siteNav">
+            <div class="footetTitle">站点导航</div>
+            <div class="siteNavList">
+                <dl>
+                    <dt>内容栏目</dt>
+                    <dd><a href="https://www.eet-china.com/news" target="_blank">业界资讯</a></dd>
+                    <dd><a href="https://www.eet-china.com/kj" target="_blank">科技头条</a></dd>
+                    <dd><a href="https://www.eet-china.com/mp" target="_blank">芯语专栏</a></dd>
+                    <dd><a href="https://www.eet-china.com/newsexpress" target="_blank">电子快讯</a></dd>
+                    <dd><a href="https://www.eet-china.com/info" target="_blank">厂商新闻</a></dd>
+                    <dd><a href="https://www.eet-china.com/tuji" target="_blank">图集</a></dd>
+                    <dd><a href="https://www.eet-china.com/tag/ta" target="_blank">技术文章</a></dd>
+                    <dd><a href="https://www.eet-china.com/reports" target="_blank">专题报道</a></dd>
+                    <dd><a href="https://www.eet-china.com/eetv" target="_blank">eeTV</a></dd>
+                    <dd><a href="https://site.eet-china.com/ceo/index.html" rel="nofollow" target="_blank">CEO专栏</a></dd>
+                    <dd><a href="https://www.eet-china.com/radio" target="_blank">EE|Times全球联播</a></dd>
+                    <dd><a href="https://u.eet-china.com/" target="_blank">ASPENCORE学院</a></dd>
+                    <dd><a href="https://subscription.eet-china.com" rel="nofollow" target="_blank">订阅印刷版</a></dd>
+                </dl>
+                <dl>
+                    <dt>技术类别</dt>
+                    <dd><a href="https://www.eet-china.com/tag/communication" target="_blank">通信</a></dd>
+                    <dd><a href="https://www.eet-china.com/tag/iot" target="_blank">物联网</a></dd>
+                    <dd><a href="https://www.eet-china.com/tag/ai"  target="_blank">人工智能</a></dd>
+                    <dd><a href="https://www.eet-china.com/tag/edaipic" target="_blank">EDA/IP/IC设计</a></dd>
+                    <dd><a href="https://www.eet-china.com/tag/mcu-control" target="_blank">控制/MCU</a></dd>
+                    <dd><a href="https://www.eet-china.com/tag/analog-mixed-signal" target="_blank">模拟/混合信号</a></dd>
+                    <dd><a href="https://www.eet-china.com/tag/embedded-design" target="_blank">嵌入式设计</a></dd>
+                    <dd><a href="https://www.eet-china.com/tag/auto-electric" target="_blank">汽车电子</a></dd>
+                    <dd><a href="https://www.eet-china.com/tag/intelligent-hardware" target="_blank">智能硬件</a></dd>
+                    <dd><a href="https://www.eet-china.com/tag/sensor_mems" target="_blank">传感/MEMS</a></dd>
+                    <dd><a href="https://www.eet-china.com/tag/power" target="_blank">电源管理</a></dd>
+                    <dd><a href="https://www.eet-china.com/tag/test-measurement" target="_blank">测试与测量</a></dd>
+                    <dd><a href="https://www.eet-china.com/tags.html" target="_blank">全部类别</a></dd>
+                </dl>
+                <dl>
+                    <dt>产品与社区</dt>
+                    <dd><a href="https://www.eet-china.com/webinars" target="_blank">在线研讨会</a></dd>
+                    <dd><a href="https://www.eet-china.com/ee-live" target="_blank">EE直播间</a></dd>
+                    <dd><a href="https://www.eet-china.com/rc" target="_blank">供应商资源</a></dd>
+                    <dd><a href="https://u.eet-china.com/" target="_blank">EE芯视频</a></dd>
+                    <dd><a href="https://mbb.eet-china.com/download" target="_blank">下载中心</a></dd>
+                    <dd><a href="https://www.eet-china.com/iqs" target="_blank">小测验</a></dd>
+                    <dd><a href="https://mbb.eet-china.com/" target="_blank">社区首页</a></dd>
+                    <dd><a href="https://mbb.eet-china.com/forum" target="_blank">论坛</a></dd>
+                    <dd><a href="https://mbb.eet-china.com/blog" target="_blank">博客</a></dd>
+                    <dd><a href="https://mbb.eet-china.com/evaluating" target="_blank">评测</a></dd>
+                    <dd><a href="https://mbb.eet-china.com/tech" target="_blank">文库</a></dd>
+                    <dd><a href="https://estore.eet-china.com/" target="_blank">商城</a></dd>
+                    <dd><a href="https://www.eet-china.com/activity.html" target="_blank">活动</a></dd>
+                </dl>
+            </div>
+        </div>
+        <div class="globalWeb">
+            <div class="footetTitle">ASPENCORE全球网站</div>
+            <div class="globalWeb-list">
+                <div class="list-item">
+                    <dl>
+                        <dt>产品</dt>
+                        <dd><a href="https://www.electronicproducts.com/" target="_blank">Electronic Products</a></dd>
+                        <dd><a href="https://www.datasheets.com/" target="_blank">Datasheets.com</a></dd>
+                        <dd><a href="https://www.techonline.com/" target="_blank">TechOnline</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>新闻与分析</dt>
+                        <dd><a href="https://www.eetimes.com/" rel="nofollow" target="_blank">EE Times</a></dd>
+                        <dd><a href="https://www.eetimes.eu/" rel="nofollow" target="_blank">EE Times Europe</a></dd>
+                        <dd><a href="https://www.powerelectronicsnews.com/" target="_blank">Power Electronics News</a></dd>
+                        <dd><a href="https://epsnews.com/" target="_blank">EPSNews</a></dd>
+                        <dd><a href="https://www.elektroda.pl/" target="_blank">Elektroda.pl</a></dd>
+                        <dd><a href="https://thechannelist.com/" target="_blank">The Channelist</a></dd>
+                    </dl>
+                </div>
+                <div class="list-item">
+                    <dl>
+                        <dt>设计技术</dt>
+                        <dd><a href="https://www.edn.com/" rel="nofollow" target="_blank">EDN</a></dd>
+                        <dd><a href="https://www.electroschematics.com/" rel="nofollow" target="_blank">Electroschematics</a></dd>
+                        <dd><a href="https://www.electronics-tutorials.ws/" rel="nofollow" target="_blank">Electronics-Tutorials</a></dd>
+                        <dd><a href="https://www.planetanalog.com/" rel="nofollow" target="_blank">Planet Analog</a></dd>
+                        <dd><a href="https://www.embedded.com/" rel="nofollow" target="_blank">Embedded</a></dd>
+                        <dd><a href="https://www.electronics-know-how.com/" rel="nofollow" target="_blank">Electronics Know How</a></dd>
+                        <dd><a href="https://iot-design-zone.com/" rel="nofollow" target="_blank">IOT Design Zone</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>设计工具</dt>
+                        <dd><a href="https://www.eeweb.com/" rel="nofollow" target="_blank">EEWEB</a></dd>
+                        <dd><a href="https://www.partsim.com/" rel="nofollow" target="_blank">PartSim</a></dd>
+                        <dd><a href="https://www.transim.com/iot/" target="_blank">Product Advisor</a></dd>
+                        <dd><a href="https://www.schematics.com/" target="_blank">Schematics.com</a></dd>
+                        <dd><a href="https://www.schematics.io/" target="_blank">Schematics.io</a></dd>
+                        <dd><a href="https://www.transim.com/Products/Engage" target="_blank">Engage</a></dd>
+                    </dl>
+                </div>
+                <div class="list-item">
+                    <dl>
+                        <dt>全球网站</dt>
+                        <dd><a href="https://www.eet-china.com/" rel="nofollow" target="_blank">电子工程专辑</a></dd>
+                        <dd><a href="https://www.ednchina.com/" rel="nofollow" target="_blank">电子技术设计</a></dd>
+                        <dd><a href="https://www.esmchina.com/" rel="nofollow" target="_blank">国际电子商情</a></dd>
+                        <dd><a href="https://www.eettaiwan.com/" rel="nofollow" target="_blank">電子工程專輯</a></dd>
+                        <dd><a href="https://www.edntaiwan.com/" rel="nofollow" target="_blank">電子技術設計</a></dd>
+                        <dd><a href="https://www.eetasia.com/" rel="nofollow" target="_blank">EE Times Asia</a></dd>
+                        <dd><a href="https://www.eetindia.co.in/" rel="nofollow" target="_blank">EE Times India</a></dd>
+                        <dd><a href="https://eetimes.itmedia.co.jp/" rel="nofollow" target="_blank">EE Times Japan</a></dd>
+                        <dd><a href="https://www.ednasia.com/" rel="nofollow" target="_blank">EDN Asia</a></dd>
+                        <dd><a href="https://edn.itmedia.co.jp/" rel="nofollow" target="_blank">EDN Japan</a></dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="rowFooterPage">
+        <div class="theText  ">
+            <a href="https://site.eet-china.com/about-us/index.html"  rel="nofollow" target="_blank" >关于我们</a>
+            <a href="https://www.eet-china.com/contact-us.html"  rel="nofollow" target="_blank" >联系我们</a>
+                    </div>
+        <div class="concernBtn">
+            <div class="theBtn">
+                <a href="https://weibo.com/eetchina" rel="nofollow" target="_blank" class="iconfont">&#xe667;</a>
+                <div class="thePic" style="display:none">
+                    <img src="https://www.eet-china.com/images/img34.png" alt="">
+                </div>
+            </div>
+            <div class="theBtn">
+                <span class="iconfont">
+                    &#xe60b;
+                </span>
+                <div class="thePic">
+                    <img src="https://www.eet-china.com/images/code.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="rowPage copyRight">
+        Copyright © 2000-2024 eMedia Asia Ltd. All rights reserved.<br/>
+        北京科能广告有限公司深圳分公司 版权所有<br/>
+    </div>
+</footer>
+<div class="silderBar">
+    <ul>
+        <li class="backTop">
+            <span class="iconfont">&#xe647;</span>
+            <span class="theText">
+                顶部
+            </span>
+        </li>
+        <li style="display:none">
+            <span class="iconfont">&#xe644;</span>
+            <span class="theText">
+                扫一扫
+            </span>
+        </li>
+        <li style="display:none">
+            <span class="iconfont">&#xe645;</span>
+            <span class="theText">
+                评论
+            </span>
+        </li>
+    </ul>
+</div>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-4727096-18"></script>
+<script type="text/javascript" src="https://www.eet-china.com/js/function.min.js"></script>
+<script type="text/javascript" src="https://www.eet-china.com/js/custom_ad.min.js"></script>
+<script type="text/javascript" src="https://www.eet-china.com/d/js/advertising/rb_and_center_ad.js?v=1.0" defer></script>
+<script type="text/javascript" src="https://www.eet-china.com/js/info.js" defer></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-4727096-18');
+</script>
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?07a263769efcb499343fdd4a474e9713";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMNZ3NH"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src=https://www.googletagmanager.com/ns.html?id=GTM-5Z4ZCXC
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+<script type="text/javascript">
+    $(function () {
+        if ([10107, 10105,10097,18444].indexOf(data.id) == -1) {
+            $('.article_text p').eq(2).after("<div class='rowBanner  plaBanner'> <div class='tag_banner' id='div-gpt-ad-1566374721706-0'></div> <div class='adTag'> <img src='https://www.eet-china.com/images/ad.png' alt=''>    </div></div>");
+        }
+    })
+</script>
+
+<script type="text/javascript" src="https://www.eet-china.com/js/article_video.js"></script>
+<script type="text/javascript" src="https://www.eet-china.com/e/public/welcome_ad"></script>
+<script type="text/javascript" src="https://www.eet-china.com/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://www.eet-china.com/js/lowbrowser.js"></script>
+<script type="text/javascript" src="https://www.eet-china.com/js/login.js"></script>
+<script async='async' src='//www.googletagservices.com/tag/js/gpt.js'></script>
+<script id="advertising" src="https://www.eet-china.com/d/js/advertising/articleorbrowse2.min.js" myType='browse'
+        keyword='EDAIPIC,ProcessorDsp,ROS'></script>
+<script src="https://www.eet-china.com/d/js/advertising/welcome_ad.js"></script>
+
+<!--wechat js-sdk-->
+<script type="text/JavaScript" src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script>
+    $(document).ready(function () {
+        if (isWeiXin()) {
+                        var wx_pic = 'https://www.eet-china.com/d/file/news/2024-09-13/493e9a60ae913216eb25db3de2d175bd.jpeg';
+                        ;
+
+            //通过ajax，在页面加载的时候获取微信分享接口signature，nonceStr，timestamp 和appId
+            $.ajax({
+                type: "post",
+                url: "/wechat.php",
+                dataType: "json",
+                //data:"url="+window.location.href,
+                success: function (data) {
+                    //console.log(data);
+                    wx.config({
+                        debug: false,
+                        appId: data.appId,
+                        timestamp: data.timestamp,
+                        nonceStr: data.nonceStr,
+                        signature: data.signature,
+                        jsApiList: ['checkJsApi', 'onMenuShareAppMessage', 'onMenuShareTimeline']
+                        // 功能列表，我们要使用JS-SDK的什么功能
+                    });
+                    wx.ready(function () {
+                        wx.onMenuShareAppMessage({
+                            title: 'RISC-V市场：高性能浪潮下的迅猛发展新纪元', // 分享标题
+                            desc: 'RISC-V开放和自由的特性使其对从嵌入式系统到高性能计算的各种应用都具有吸引力。其生态系统正在迅速扩大，众多公司、研究机构和开源社区都在为其发展做出贡献。', // 分享描述
+                            link: window.location.href,//分享点击之后的链接
+                            imgUrl: wx_pic, // 分享图标
+                            type: 'link', // 分享类型,music、video或link，不填默认为link
+                            success: function () {
+                                //成功之后的回调
+                            },
+                            cancel: function () {
+                                // 用户取消分享后执行的回调函数
+                            }
+                        });
+                        wx.onMenuShareTimeline({
+                            title: 'RISC-V市场：高性能浪潮下的迅猛发展新纪元', // 分享标题
+                            desc: 'RISC-V开放和自由的特性使其对从嵌入式系统到高性能计算的各种应用都具有吸引力。其生态系统正在迅速扩大，众多公司、研究机构和开源社区都在为其发展做出贡献。', // 分享描述
+                            imgUrl: wx_pic, // 分享图标
+                            type: 'link', // 分享类型,music、video或link，不填默认为link
+                            success: function () {
+                                //成功之后的回调
+                            },
+                            cancel: function () {
+                                // 用户取消分享后执行的回调函数
+                            }
+                        });
+                    });
+                    wx.error(function (res) {
+                        //打印错误消息。及把 debug:false,设置为debug:ture就可以直接在网页上看到弹出的错误提示
+                    });
+                }
+            })
+        }
+    });
+</script>
+<script type="text/javascript">
+    var data = {
+        type: 'diggtop2',
+        classid: 19,
+        id: 19275,
+        site: [2, 3, 4]
+    };
+    var is_login = 0;
+</script>
+<!--wechat js-sdk end-->
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+       extensions: ["tex2jax.js"],
+        jax: ["input/TeX","output/HTML-CSS"],
+           tex2jax: {
+               inlineMath: [['$', '$']],
+               displayMath: [["$$", "$$"]], //段内公式选择符
+               skipTags: ["script", "noscript", "style", "textarea", "pre", "code", "a"] //避开某些标签
+           },
+           "HTML-CSS": {
+               showMathMenu: false
+           },
+           showProcessingMessages: false,
+            messageStyle: "none"
+       });
+
+
+</script>
+<script type="text/javascript" src="https://www.eet-china.com/js/mathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript" src="https://www.eet-china.com/js/layer.js"></script>
+<script type="text/javascript" src="https://www.eet-china.com/js/related_news.js?v=1.0"></script>
+<script src="https://www.eet-china.com/js/2.0/public.js"></script>
+<script src="https://www.eet-china.com/js/2.0/detail.js"></script>
+<script src="https://www.eet-china.com/js/keyword_ad.js"></script>
+<style>
+
+    .bigimg {
+        width:600px;
+        height: min-content;
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        display: none;
+        z-index: 10001;
+        border: 0px solid #fff;
+        box-sizing: content-box !important;
+        -webkit-box-sizing: content-box !important;
+        background:#fff;
+    }
+
+    .mask {
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #000;
+        opacity: 0.5;
+        filter: Alpha(opacity=50);
+        z-index: 10000;
+        transition: all 1s;
+        display: none;
+    }
+
+    .mask:hover {
+        cursor: zoom-out
+    }
+
+    .bigimg:hover {
+        cursor: move
+    }
+
+    .bigimg .tool {
+        background: #fafafa;
+        padding: 15px;
+        text-align: right;
+    }
+
+    .bigimg .tool * {
+        width: 17px;
+        height: 17px;
+        overflow: hidden;
+        display: inline-flex;
+        background: url("../images/imgzoom_tb.gif") no-repeat 0 0;
+        cursor: pointer;
+        margin-left: 5px;
+    }
+
+    .bigimg .tool .imgadjust {
+        background-position: -40px 0;
+    }
+
+    .bigimg .tool .imgclose {
+        background-position: -80px 0;
+    }
+
+    .bigimg .tool .imglink:hover {
+        background-position: 0 -39px;
+    }
+
+    .bigimg .tool .imgadjust:hover {
+        background-position: -40px -39px;
+    }
+
+    .bigimg .tool .imgclose:hover {
+        background-position: -80px -39px;
+    }
+
+
+</style>
+<div class="bigimg">
+    <div class="tool">
+        <a class="imglink" target="_blank" title="在新窗口打开" href=""></a>
+        <span class="imgadjust" title="实际大小"></span>
+        <span class="imgclose" title="关闭"></span>
+    </div>
+    <img src="" alt="" >
+</div>
+
+<div class="mask">
+</div>
+<script src="/js/jquery-ui.js"></script>
+<script src="/js/pinch-zoom.js"></script>
+<script src="/js/zoom.js?1.5"></script>
+<noscript><img src="https://www.eet-china.com/akam/13/pixel_6144526e?a=dD1kYzQ3ZTA5Zjg4MDAwNWU5OTczNzVjY2VjZmM2MWFhZTExZWYzMTM2JmpzPW9mZg==" style="visibility: hidden; position: absolute; left: -999px; top: -999px;" /></noscript></body>
+</html>
